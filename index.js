@@ -16,5 +16,5 @@ app.use('/api/chat',chatRoute)
 mongoose.connect('mongodb+srv://admin:sunsetwest1234RRR@royoapi.3qmdrjq.mongodb.net/Doconnect123?retryWrites').then(()=>{
 
      console.log('db connected')
-     app.listen(3000,()=>console.log('server running'))
+     app.listen(5000,()=>console.log('server running'))
 })
